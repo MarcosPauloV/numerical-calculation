@@ -1,4 +1,4 @@
-class PlotData:
+class Plot:
     def __init__(
         self, probable_value: float, absolute_error: float, relative_error: float
     ):
