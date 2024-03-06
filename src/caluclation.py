@@ -3,7 +3,7 @@ from math import sqrt
 
 class Calculation:
     @staticmethod
-    def absolute_value(vp: float, v1: int) -> float:
+    def absolute_error(vp: float, v1: int) -> float:
         return vp - v1
 
     @staticmethod
