@@ -5,3 +5,6 @@ class Heartbeat:
 
     def __str__(self) -> str:
         return f"{self.n}, {self.v1}"
+
+    def __repr__(self) -> str:
+        return f"{self.n} {self.v1}"
