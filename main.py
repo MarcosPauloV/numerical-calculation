@@ -10,8 +10,9 @@ for heartbeat in list_data:
     absolute_error = Calculation.absolute_error(probable_value, heartbeat.v1)
     relative_error = Calculation.relative_error(absolute_error, probable_value)
 
-    print("Valor Provavel: ", probable_value)
-    print("Erro Absoluto:", absolute_error)
-    print("Erro Relativo (%):", relative_error)
+    print(f"Valor Provavel: {probable_value}")
+    print(f"Erro Absoluto: {absolute_error}")
+    print(f"Erro Relativo (%): {relative_error}")
+
 
 plot_data(list_data)
